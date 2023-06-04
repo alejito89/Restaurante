@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  /* Estilos para la lista de restaurantes */
+  .restaurantes {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  .restaurante {
+    width: 23%;
+    text-align: center;
+  }
+  
+  .restaurante img {
+    width:300px;height:250px;
+  }
+  
+  /* Estilos para el formulario */
+  form {
+    margin-top: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  input[type="text"],
+  textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  button[type="submit"] {
+    padding: 10px 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+  }
+
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
